@@ -9,10 +9,14 @@ RUN apt update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-RUN pip install git+https://github.com/NetExperimentEasy/EasyDES.git
+# unkown error, cant install by this way
+# RUN pip install git+https://github.com/NetExperimentEasy/EasyDES.git
 
 WORKDIR /NetE
 ADD ./ .
+
+RUN git clone https://github.com/NetExperimentEasy/EasyDES.git
+RUN cd EasyDES && pip3 install -e .
 
 
 
