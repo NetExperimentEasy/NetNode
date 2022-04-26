@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-LABEL derekliu seclee <"jacelau@outlook.com">
+LABEL seclee <"jacelau@outlook.com">
 
 RUN apt update \
     && apt install -y inetutils-ping iperf3 net-tools \
