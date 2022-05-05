@@ -1,3 +1,6 @@
+# this tool is froked from https://github.com/nerdalert/nflow-generator
+Under Apache License Version 2.0
+
 # Usage - nflow-generator
 
 [![nflow-generator image CI](https://github.com/nerdalert/nflow-generator/actions/workflows/image-build.yml/badge.svg)](https://github.com/nerdalert/nflow-generator/actions/workflows/image-build.yml)
