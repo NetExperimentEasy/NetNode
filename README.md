@@ -6,5 +6,5 @@ docker build -t netnode:stable .
 ```
 
 ```
-docker run -it --name node1 netnode:stable
+docker run -it --name node1 netnode:stable --cap-add=NET_ADMIN
 ```
